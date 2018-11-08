@@ -40,6 +40,38 @@ Installation
   3. Upload additional files to the same directory as index.php
 
 
+文件结构
+---
+
+假设你的虚拟主机根目录是 /home/wwwroot/xxx.xx  
+```
+/home/wwwroot/xxx.xx/
+├─ resources/
+│   ├ themes/
+│   │ └ bootstrap/
+│   │    ├ css/
+│   │    ├ fonts/
+│   │    ├ img/
+│   │    ├ js/
+│   │    ├ default_footer.php # 底部公共文件 #
+│   │    ├ default_header.php # 顶部公共文件（可以放网站流量统计代码） #
+│   │    └ index.php # 网页主文件，其中可以修改顶部公告栏内容 #
+│   │
+│   ├ DirectoryLister.php
+│   ├ config.php
+│   └ fileTypes.php
+│
+├ README.html # 该文件夹页面内的 说明简介文件 #
+├ index.php
+│
+├─ 其他文件夹/
+│   ├ 其他文件.txt
+│   └ README.html # 该文件夹页面内的 说明简介文件 #
+│
+└ 其他文件.txt
+```
+via [逗比根据地](https://doub.io/dbrj-3/)
+
 Troubleshooting
 ---------------
 
